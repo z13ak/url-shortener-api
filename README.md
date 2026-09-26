@@ -37,5 +37,5 @@ curl http://127.0.0.1:8000/stats/aZ3kQ1
 ```
 
 Pass `custom_code` in the `/shorten` body to pick your own slug (3-30 chars,
-letters/digits/`-`/`_`) instead of a random one — the API returns `409` if
+letters/digits/`-`/`_`) instead of a random one - the API returns `409` if
 it's already taken.
